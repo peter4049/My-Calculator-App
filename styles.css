@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.calculator {
+  width: 340px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px solid #fff358;
+  border-radius: 5px;
+  background-color: navy;
+  opacity: 80%;
+}
+input[type="button"] {
+  width: 70px;
+  height: 50px;
+  margin: 5px;
+  font-size: 20px;
+  border: dashed red;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  color: black;
+  font-weight: bold;
+}
+input[type="text"] {
+  width: calc(100% - 10px);
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 24px;
+  text-align: right;
+}
+
+p {
+  text-align: center;
+  color: red;
+  background-color: azure;
+  font-size: 30px;
+  font-weight: 400;
+}
